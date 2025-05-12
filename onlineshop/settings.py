@@ -17,7 +17,12 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 SECRET_KEY = 'your-secret-key'
 DEBUG = True
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'secondhand-clothing.onrender.com',
+    '127.0.0.1',
+    'localhost'
+]
+
 
 # Installed Apps
 INSTALLED_APPS = [
